@@ -1,0 +1,20 @@
+*****Follow these steps to use this program:****
+This program currently only works in Windows environments.
+
+(1) - Modify Config.xml to fit your needs.
+
+(2) - To run this program, make sure you have Java installed. If you don't, get it here http://www.java.com/en/download
+	Once java is installed, you can run by executing "/dist/Run-xxx.exe" where xxx is your architecture (x86 or x64).
+	You can verify it ran by checking the log file at "/sage-xbmc.log"
+	If you have trouble, try running the Run-x64/x86.cmd from a command prompt to find out what the probem is. You may need to modify your path to java.exe.
+
+(3) - This program is designed to be run on a schedule, so you should set it up to run as a scheduled task in Windows. (howto: http://support.microsoft.com/kb/308569)
+	I recommend a run interval of 5 minutes, but you can choose what you want.
+	IMPORTANT - Make sure you specify that the program runs in the "C:\instalFolder\dist\" location (or specify the absolute path in the .cmd file and recompile it as an exe).
+
+(4) - You are done. Any future modifications can be made directly in Config.xml.
+
+
+Support Thread is located at: http://forum.xbmc.org/showthread.php?t=87261
+
+-BradVido
